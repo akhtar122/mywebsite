@@ -1,0 +1,62 @@
+﻿
+@{
+    ViewBag.Title = "Contect";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <link href="~/css/ContectUsStyle.css" rel="stylesheet" />
+</head>
+<body>
+    <form method="post" action="@Url.Action("SendMail")">
+        <div class="container">
+            <div style="text-align:center">
+
+                <h2>Contect and mail us</h2>
+
+                <h2>Contact Us</h2>
+                <p>Swing by for a cup of coffee, or leave us a message:</p>
+            </div>
+            <div class="row">
+                <div class="column">
+                    <img src="~/img/AddressMap.PNG" style="width:100%">
+                </div>
+                <div class="column">
+
+                    <p>
+                        <h2 style="color:crimson">MUSLIM COUNCIL OF BANGLA</h2>
+                        
+                        <h3 style="color:blue"> 12/2 , KABITIRTHA SARANI , KHIDDIRPORE</h3>
+                        
+                        <h3 style="color:blue"> KOLKATA-700 023</h3>
+                        
+                        <h3 style="color:blue">Mob : 9334615061 / 7044421786</h3>
+                        <h3 style="color:blue">Email : muslimcouncilofbangla@gmail.com </h3>
+                        <h3 style="color:blue">Email : abdullahqasmi72@gmail.com</h3>
+                    </p>
+                    @*<form action="/action_page.php">
+                        <label for="fname">First Name</label>
+                        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                        <label for="lname">Last Name</label>
+                        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                        <label for="country">Country</label>
+                        <select id="country" name="country">
+                            <option value="australia">Australia</option>
+                            <option value="canada">Canada</option>
+                            <option value="usa">USA</option>
+                        </select>
+                        <label for="subject">Subject</label>
+                        <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+                        <input type="submit" value="Submit">
+                    </form>*@
+                </div>
+            </div>
+        </div>
+    </form>
+   </body>
+</html>
+
+
